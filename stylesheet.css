@@ -73,11 +73,11 @@ body {
     }
     
     .row {
-    margin: 8px 0px;
+    margin: 8px 2px;
     }
     
     .row > .column {
-    padding: 0px;
+    padding: 2px;
     }
     
     .column {
