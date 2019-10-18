@@ -1,0 +1,106 @@
+
+.parallax {
+
+    background-image: url("backdrop.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media only screen and (max-device-width: 1366px) {
+        .parallax {
+          background-attachment: scroll;
+        }
+      }
+  }
+
+.boxed {
+  border: 5px double black ; border-radius: 40px / 20px ;
+
+}
+
+body {
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+  font-family: Tahoma, Verdana, sans-serif;
+  }
+
+.button {
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+
+}
+
+.centre {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.imagecentre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+ {
+    box-sizing: border-box;
+    }
+    
+
+ .makeclear{
+     background: transparent;
+ }   
+    
+    .main {
+    max-width: 1000px;
+    margin: auto;
+    
+    }
+    
+    h1 {
+    font-size: 50px;
+    word-break: break-all;
+    }
+    
+    .row {
+    margin: 8px -16px;
+    }
+    
+    .row > .column {
+    padding: 0px;
+    }
+    
+    .column {
+    float: left;
+    width: 24%;
+    }
+    
+    
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+    
+    .content {
+    background-color: white;
+    padding: 5px;
+    }
+
+    @media screen and (max-width: 480px) {
+    .column {
+    width: 100%;
+    }
+    
+
